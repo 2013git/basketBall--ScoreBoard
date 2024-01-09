@@ -1,0 +1,36 @@
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-btn nav-btn-clk" id="new-game"> NEW GAME</button>
+                <p id="timer">00:00:00</p>
+                <button class="nav-btn nav-btn-clk" onclick="toggle()" id="startStopBtn">START</button>
+        </header>
+        
+        <div class="container">
+            <div class="score-branch">
+                <h3 id="home-id">HOME</h3>
+                <h2 id="home-scr">0</h2>
+                <div>
+                    <button class="button button1" id="btn-home-1">+1</button>
+                    <button class="button button1" id="btn-home-2">+2</button>
+                    <button class="button button1" id="btn-home-3">+3</button>
+                </div>
+            </div>
+            <div class="score-branch">
+                <h3 id="guest-id">GUEST</h3>
+                <h2 id="guest-scr">0</h2>
+                <div>
+                    <button class="button button1" id="btn-guest-1">+1</button>
+                    <button class="button button1" id="btn-guest-2">+2</button>
+                    <button class="button button1" id="btn-guest-3">+3</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript"  src="index.js"></script>
+       
+    </body>
+</html>
